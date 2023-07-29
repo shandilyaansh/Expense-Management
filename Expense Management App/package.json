@@ -1,4 +1,5 @@
 {
+  "proxy": "http://localhost:8080",
   "name": "expense-management-app",
   "version": "1.0.0",
   "description": "Expense Tracker",
