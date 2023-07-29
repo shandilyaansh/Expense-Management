@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* overflow:auto; */
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  /* background: black; */
+  background: rgb(11,9,31);
+background: linear-gradient(90deg, rgba(11,9,31,1) 6%, rgba(73,94,187,1) 50%, rgba(1,30,35,1) 100%);
+  color: white;
+  padding: 0 5px;
+  line-height: 30px;
+  width: fit-content;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.content {
+  min-height: 100vh;
+  /* position: absolute; */
+}
+
+.content {
+  overflow: auto;
+}
+
+.nav-item p {
+  color: white;
+}
+
+.nav-item p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.navbar-brand:hover {
+  color: white
+}
+
+/* Form layout */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.register-form Form h1 {
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  background: rgba(200, 207, 217, 0.619);
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-flex a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  background: white;
+  padding: 2px;
+  color: black;
+  border-radius: 3px;
+}
+
+.d-flex a:hover {
+  color: #1664a4;
+  /* text-decoration: underline; */
+}
+
+/* antd Icons */
+.switch-icon {
+  border: 1px solid rgba(0, 0, 0, 0.555);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+
+.inactive-icon {
+  color: gray;
+}
+
+
+/* Transectio Page */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 15px gray;
+}
+
+/* Card design */
+.card-body {
+  background: rgba(153, 156, 156, 0.219);
+}
+
+.navbar .container-fluid {
+  background: #1664a4;
+}
+
+.navbar-toggler {
+  color: aliceblue;
+}
+
+.card-header span {
+  font-weight: 700;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+}
